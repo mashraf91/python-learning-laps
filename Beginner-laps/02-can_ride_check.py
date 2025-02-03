@@ -1,3 +1,12 @@
+"""
+check if a user can play rollercoster or not
+user is allowed if his height greater then 120 cm
+
+the pricing list is
+5$ if age less than 12
+7$ if age between 12 and 18
+12$ if above 18
+"""
 print("Welcome to the rollercoster")
 
 height = int(input("What's your height in cm? "))
