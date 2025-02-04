@@ -3,8 +3,8 @@ Calculate BMI (Body Mass Index)
 bmi equation = weight / (height ** 2)
 """
 
-weight = float(input("what's your weight? "))
-height = float(input("what's your height? "))
+weight = float(input("what's your weight in kg? "))
+height = float(input("what's your height in m? "))
 bmi = weight / (height ** 2)
 
 if bmi < 18.5:
