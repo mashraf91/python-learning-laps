@@ -12,7 +12,7 @@ numbers_of_letters = int(input("How many letters would you like in your password
 numbers_of_symbols = int(input(f"How many symbols would you like? "))
 numbers_of_numbers = int(input(f"How many numbers would you like? "))
 
-password_holder = []
+password_holder = []  # we will use the list because we can shuffle it later (change order)
 for letter in range(1, numbers_of_letters + 1):
     password_holder.append(random.choice(letters))
 
