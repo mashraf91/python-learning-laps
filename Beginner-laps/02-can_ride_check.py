@@ -22,4 +22,6 @@ if height >= 120:
 else:
     print("You are not allowed to ride the rollercoaster")
 
+# note that you can combine the if-condition using and/or
+
 
